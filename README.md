@@ -1,70 +1,85 @@
-# Getting Started with Create React App
+# ChefRainbowbeard 🏴‍☠️🌈🍳
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**ChefRainbowbeard** is an AI-powered culinary companion that turns your pantry leftovers into gourmet meals. By leveraging the **Claude API**, the app analyzes your available ingredients to generate creative, easy-to-follow recipes. 
 
-## Available Scripts
+No more "nothing to eat" moments—if you have the ingredients, the Captain has a plan.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🚀 Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* **Smart Ingredient Mapping:** Input any combination of items; the AI intelligently suggests seasonings and techniques.
+* **Powered by Claude:** Uses Anthropic’s Claude API for high-quality, conversational recipe generation.
+* **Dietary Customization:** (Planned) Filter by dietary restrictions or preferred cuisines.
+* **Minimalist Interface:** Designed to move you from "fridge search" to "stove heat" instantly.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🛠️ Tech Stack
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* **Language:** [e.g., Python / JavaScript]
+* **AI Engine:** [Anthropic Claude API](https://console.anthropic.com/)
+* **Frontend/Framework:** [e.g., React / Streamlit / Flask]
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 📋 Prerequisites
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Before you set sail, ensure you have:
+* An **Anthropic API Key**.
+* **[e.g., Node.js / Python 3.x]** installed on your machine.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 📥 Installation
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/yourusername/ChefRainbowbeard.git](https://github.com/yourusername/ChefRainbowbeard.git)
+    cd ChefRainbowbeard
+    ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2.  **Install dependencies:**
+    ```bash
+    # For Node.js projects
+    npm install
+    
+    # For Python projects
+    pip install -r requirements.txt
+    ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+3.  **Set up environment variables:**
+    Create a `.env` file in the root directory:
+    ```env
+    CLAUDE_API_KEY=your_api_key_here
+    ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+4.  **Run the app:**
+    ```bash
+    # [e.g., npm start or streamlit run app.py]
+    ```
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 📖 Usage
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1.  Open the app in your browser.
+2.  Type in your ingredients (e.g., *"3 eggs, half an onion, and some wilted spinach"*).
+3.  Hit the **"Cook with the Captain"** button.
+4.  Follow the custom recipe and ChefRainbowbeard’s signature cooking tips.
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 🤝 Contributing
 
-### Analyzing the Bundle Size
+1.  Fork the Project.
+2.  Create your Feature Branch (`git checkout -b feature/AmazingFeature`).
+3.  Commit your Changes (`git commit -m 'Add some AmazingFeature'`).
+4.  Push to the Branch (`git push origin feature/AmazingFeature`).
+5.  Open a Pull Request.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+## 📜 License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Distributed under the MIT License. See `LICENSE` for more information.
