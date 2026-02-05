@@ -5,9 +5,114 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(249, 249, 249);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.header-wrapper{
+  padding: 1%;
+  box-shadow: 1px 1px 5px 1px #888888;
+  background-color: white;
+  width: 100%;
+
+}
+.logo-image{
+  display: block;
+  margin: auto;
+}
+.form-wrapper{
+  margin-top: 3em;
+  width: 100%;
+  max-width: 600px;
+  display: flex;
+  justify-content: center;
+}
+.form-field{
+  padding-right:7em;
+  padding-left: 7em;
+  padding-top: 0.8em;
+  padding-bottom: 0.8em;
+  border-radius: 5px;
+  border-width: 1px;
+  border-color:#aeacac;
+  margin:10px;
+  min-width: 150px;
+  max-width:400px;
+}
+
+.submit{
+  padding-top:0.8em;
+  padding-bottom: 0.8em;
+  padding-right:4em;
+  padding-left: 4em;
+  border-radius: 5px;
+  background-color: black;
+  color:white;
+}
+
+.view-wrapper{
+  margin: 3rem auto;
+  width: 100%;
+  max-width: 600px;
+  padding-left: 4em;
+
+}
+
+.main-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.view-heading {
+  text-align: left;
+  margin-bottom: 1.5rem;
+}
+.item-list ul {
+  padding-left: 1.25rem;
+}
+
+.item-list li {
+  margin-bottom: 0.6rem;
+}
+
+.footer-wrapper{
+  display: flex;
+  
+  gap: 3rem;
+  background-color:#F0EFEB;
+  padding-top:2em;
+  padding-bottom: 2em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  border-radius: 15px;
+
+}
+
+.footerHeading{
+  font-family: Inter, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 18px;
+}
+.footerPara{
+    
+  font-family: Inter, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 14px;
+
+}
+.button-wrapper{
+  padding-top:1.9rem;
+}
+.button-footer{
+  padding-top:11px;
+  padding-bottom: 11px;
+  padding-right: 19px;
+  padding-left: 19px;
+  border-radius: 5px;
+  border:none;
+  background-color: #D17557;
+  color: white;
+
 }
